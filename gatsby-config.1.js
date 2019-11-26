@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `My Website`,
-    description: `sito portfolio e per la raccolta della mia documentazione`,
-    author: `@daniele-manzi`,
+    title: `DANIELE MANZI`,
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/markdown`,
-        name: `markdown`,
+        path: `${__dirname}/src/pages`,
+        name: `pages`,
       },
     },
     `gatsby-transformer-remark`,

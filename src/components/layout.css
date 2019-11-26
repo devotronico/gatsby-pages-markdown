@@ -42,6 +42,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #333333;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -619,4 +621,44 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+/* <MARKDOWN> */
+/*
+gatsby-focus-wrapper > div:nth-(1) {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+gatsby-focus-wrapper > div:last- {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+*/
+/* </MARKDOWN> */
+.menu li {
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-align: center;
+  display: inline-block;
+  min-width: 60px;
+  height: 40px;
+  font-size: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+li.about > a {
+  font-size: 50px;
+}
+
+.menu a:hover {
+  background-color: yellow;
 }
