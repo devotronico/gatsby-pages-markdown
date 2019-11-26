@@ -641,6 +641,15 @@ align-items: center;
 
 */
 /* </MARKDOWN> */
+
+.menu {
+  margin: 0;
+  padding: 0 !important;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
 .menu li {
   margin: 0;
   padding: 0;
@@ -650,13 +659,9 @@ align-items: center;
   text-align: center;
   display: inline-block;
   min-width: 60px;
-  height: 40px;
+  height: 60px;
   font-size: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-li.about > a {
-  font-size: 50px;
+  line-height: 2;
 }
 
 .menu a:hover {
